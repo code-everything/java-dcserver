@@ -107,9 +107,6 @@ public class MergeRecords {
 				}
 			}
 		} else {
-			// ********************* Temporary
-			System.out.println("nrecs <= 0");
-			
 			Common.logit("           Empty client database file", 
 					"STAT:    ***** Empty client database file");
 		}
