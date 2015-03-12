@@ -430,12 +430,12 @@ public class Dc_DbHelper {
 		String sql = "SELECT COUNT(*) FROM " + TABLE_DC + ";";
 
 		con = getConnection();
-		PreparedStatement pstmt = con.prepareStatement(sql);
+		Statement stmt = con.createStatement();
 
-		ResultSet rs = pstmt.executeQuery(sql);
+		ResultSet rs = stmt.executeQuery(sql);
 		rs.next();
 		int thisCount = rs.getInt(1);
-		closeDB(rs, pstmt, con);
+		closeDB(rs, stmt, con);
 
 		// return count
 		return thisCount;

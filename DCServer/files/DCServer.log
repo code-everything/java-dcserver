@@ -2,3 +2,305 @@
 20150304T180507.840 STAT: AWAITING NEW CONNECTION
 20150304T180609.954 STAT: AWAITING NEW CONNECTION
 20150304T181513.888 STAT: AWAITING NEW CONNECTION
+20150312T071723.869 STAT:    ***** Server Startup -- Version: 1.1
+20150312T071723.931 STAT:    ***** AWAITING NEW CONNECTION
+20150312T074740.791 STAT:    ***** Server Startup -- Version: 1.1
+20150312T074740.792 STAT:    ***** AWAITING NEW CONNECTION
+20150312T074820.059 STAT:    ***** Server Startup -- Version: 1.1
+20150312T074820.060 STAT:    ***** AWAITING NEW CONNECTION
+20150312T074930.215 STAT:    ***** OPENED NEW CONNECTION
+20150312T074930.218 RECV: ##:^^Server%%:$$TestClient%%:**ServerReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T074930.228 SEND: ##:^^TestClient%%:$$Server%%:**ServerReadyToReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T074930.230 COPY:    File: /home/doug/git/Java/DCServer/DCServer/files/Client000001_dc.db to /home/doug/git/Java/DCServer/DCServer/files/CurrentClientDatabaseFile.db
+20150312T074930.322 STAT:    Merged records from: TestClient; added: 0, updated: 0
+20150312T074930.322 SEND: ##:^^TestClient%%:$$Server%%:**ServerReceiveFileComplete%%:OK:##
+20150312T074930.323 RECV: ##:^^Server%%:$$TestClient%%:**ClientReady%%:##
+20150312T074930.323 SEND: ##:^^TestClient%%:$$Server%%:**ClientReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T074930.324 RECV: ##:^^Server%%:$$TestClient%%:**ClientReadyToReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T074930.361 RECV: ##:^^Server%%:$$TestClient%%:**ClientReceiveFileComplete%%:OK:##
+20150312T074930.361 SEND: ##:^^TestClient%%:$$Server%%:**NoMoreTransactions%%:##
+20150312T074930.362 RECV: ##:^^Server%%:$$TestClient%%:**EndConnection%%:##
+20150312T074930.362 STAT:    ***** CLOSED CONNECTION
+20150312T074930.362 STAT:    ***** AWAITING NEW CONNECTION
+20150312T075449.486 STAT:    ***** Server Startup -- Version: 1.1
+20150312T075449.487 STAT:    ***** AWAITING NEW CONNECTION
+20150312T075459.031 STAT:    ***** OPENED NEW CONNECTION
+20150312T075459.036 RECV: ##:^^Server%%:$$TestClient%%:**ServerReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T075459.054 SEND: ##:^^TestClient%%:$$Server%%:**ServerReadyToReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T075459.058 COPY:    File: /home/doug/git/Java/DCServer/DCServer/files/Client000002_dc.db to /home/doug/git/Java/DCServer/DCServer/files/CurrentClientDatabaseFile.db
+20150312T075459.228 STAT:    Merged records from: TestClient; added: 0, updated: 0
+20150312T075459.228 SEND: ##:^^TestClient%%:$$Server%%:**ServerReceiveFileComplete%%:OK:##
+20150312T075459.229 RECV: ##:^^Server%%:$$TestClient%%:**ClientReady%%:##
+20150312T075459.229 SEND: ##:^^TestClient%%:$$Server%%:**ClientReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T075459.230 RECV: ##:^^Server%%:$$TestClient%%:**ClientReadyToReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T075459.269 RECV: ##:^^Server%%:$$TestClient%%:**ClientReceiveFileComplete%%:OK:##
+20150312T075459.270 SEND: ##:^^TestClient%%:$$Server%%:**NoMoreTransactions%%:##
+20150312T075459.271 RECV: ##:^^Server%%:$$TestClient%%:**EndConnection%%:##
+20150312T075459.272 STAT:    ***** CLOSED CONNECTION
+20150312T075459.272 STAT:    ***** AWAITING NEW CONNECTION
+20150312T080106.071 STAT:    ***** Server Startup -- Version: 1.1
+20150312T080106.072 STAT:    ***** AWAITING NEW CONNECTION
+20150312T080114.883 STAT:    ***** OPENED NEW CONNECTION
+20150312T080114.885 RECV: ##:^^Server%%:$$TestClient%%:**ServerReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T080114.893 SEND: ##:^^TestClient%%:$$Server%%:**ServerReadyToReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T080114.895 COPY:    File: /home/doug/git/Java/DCServer/DCServer/files/Client000003_dc.db to /home/doug/git/Java/DCServer/DCServer/files/CurrentClientDatabaseFile.db
+20150312T080115.036 STAT:    Merged records from: TestClient; added: 0, updated: 0
+20150312T080115.036 SEND: ##:^^TestClient%%:$$Server%%:**ServerReceiveFileComplete%%:OK:##
+20150312T080115.037 RECV: ##:^^Server%%:$$TestClient%%:**ClientReady%%:##
+20150312T080115.037 SEND: ##:^^TestClient%%:$$Server%%:**ClientReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T080115.038 RECV: ##:^^Server%%:$$TestClient%%:**ClientReadyToReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T080115.077 RECV: ##:^^Server%%:$$TestClient%%:**ClientReceiveFileComplete%%:OK:##
+20150312T080115.078 SEND: ##:^^TestClient%%:$$Server%%:**NoMoreTransactions%%:##
+20150312T080115.079 RECV: ##:^^Server%%:$$TestClient%%:**EndConnection%%:##
+20150312T080115.079 STAT:    ***** CLOSED CONNECTION
+20150312T080115.079 STAT:    ***** AWAITING NEW CONNECTION
+20150312T080432.951 STAT:    ***** Server Startup -- Version: 1.1
+20150312T080432.951 STAT:    ***** AWAITING NEW CONNECTION
+20150312T080442.741 STAT:    ***** OPENED NEW CONNECTION
+20150312T080442.746 RECV: ##:^^Server%%:$$TestClient%%:**ServerReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T080442.762 SEND: ##:^^TestClient%%:$$Server%%:**ServerReadyToReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T080442.765 COPY:    File: /home/doug/git/Java/DCServer/DCServer/files/Client000004_dc.db to /home/doug/git/Java/DCServer/DCServer/files/CurrentClientDatabaseFile.db
+20150312T080442.911 STAT:    Merged records from: TestClient; added: 0, updated: 0
+20150312T080442.912 SEND: ##:^^TestClient%%:$$Server%%:**ServerReceiveFileComplete%%:OK:##
+20150312T080442.912 RECV: ##:^^Server%%:$$TestClient%%:**ClientReady%%:##
+20150312T080442.913 SEND: ##:^^TestClient%%:$$Server%%:**ClientReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T080442.913 RECV: ##:^^Server%%:$$TestClient%%:**ClientReadyToReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T080442.953 RECV: ##:^^Server%%:$$TestClient%%:**ClientReceiveFileComplete%%:OK:##
+20150312T080442.953 SEND: ##:^^TestClient%%:$$Server%%:**NoMoreTransactions%%:##
+20150312T080442.954 RECV: ##:^^Server%%:$$TestClient%%:**EndConnection%%:##
+20150312T080442.954 STAT:    ***** CLOSED CONNECTION
+20150312T080442.954 STAT:    ***** AWAITING NEW CONNECTION
+20150312T080629.761 STAT:    ***** Server Startup -- Version: 1.1
+20150312T080629.762 STAT:    ***** AWAITING NEW CONNECTION
+20150312T080637.154 STAT:    ***** OPENED NEW CONNECTION
+20150312T080637.158 RECV: ##:^^Server%%:$$TestClient%%:**ServerReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T080637.178 SEND: ##:^^TestClient%%:$$Server%%:**ServerReadyToReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T080637.182 COPY:    File: /home/doug/git/Java/DCServer/DCServer/files/Client000005_dc.db to /home/doug/git/Java/DCServer/DCServer/files/CurrentClientDatabaseFile.db
+20150312T080637.366 STAT:    Merged records from: TestClient; added: 0, updated: 0
+20150312T080637.367 SEND: ##:^^TestClient%%:$$Server%%:**ServerReceiveFileComplete%%:OK:##
+20150312T080637.367 RECV: ##:^^Server%%:$$TestClient%%:**ClientReady%%:##
+20150312T080637.368 SEND: ##:^^TestClient%%:$$Server%%:**ClientReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T080637.368 RECV: ##:^^Server%%:$$TestClient%%:**ClientReadyToReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T080637.405 RECV: ##:^^Server%%:$$TestClient%%:**ClientReceiveFileComplete%%:OK:##
+20150312T080637.406 SEND: ##:^^TestClient%%:$$Server%%:**NoMoreTransactions%%:##
+20150312T080637.407 RECV: ##:^^Server%%:$$TestClient%%:**EndConnection%%:##
+20150312T080637.407 STAT:    ***** CLOSED CONNECTION
+20150312T080637.408 STAT:    ***** AWAITING NEW CONNECTION
+20150312T082947.426 STAT:    ***** Server Startup -- Version: 1.1
+20150312T082947.426 STAT:    ***** AWAITING NEW CONNECTION
+20150312T082955.932 STAT:    ***** OPENED NEW CONNECTION
+20150312T082955.934 RECV: ##:^^Server%%:$$TestClient%%:**ServerReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T082955.941 SEND: ##:^^TestClient%%:$$Server%%:**ServerReadyToReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T082955.942 COPY:    File: /home/doug/git/Java/DCServer/DCServer/files/Client000006_dc.db to /home/doug/git/Java/DCServer/DCServer/files/CurrentClientDatabaseFile.db
+20150312T082956.100 STAT:    ***** Empty client database file
+20150312T082956.100 STAT:    Merged records from: TestClient; added: 0, updated: 0
+20150312T082956.100 SEND: ##:^^TestClient%%:$$Server%%:**ServerReceiveFileComplete%%:OK:##
+20150312T082956.101 RECV: ##:^^Server%%:$$TestClient%%:**ClientReady%%:##
+20150312T082956.101 SEND: ##:^^TestClient%%:$$Server%%:**ClientReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T082956.102 RECV: ##:^^Server%%:$$TestClient%%:**ClientReadyToReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T082956.141 RECV: ##:^^Server%%:$$TestClient%%:**ClientReceiveFileComplete%%:OK:##
+20150312T082956.142 SEND: ##:^^TestClient%%:$$Server%%:**NoMoreTransactions%%:##
+20150312T082956.142 RECV: ##:^^Server%%:$$TestClient%%:**EndConnection%%:##
+20150312T082956.142 STAT:    ***** CLOSED CONNECTION
+20150312T082956.143 STAT:    ***** AWAITING NEW CONNECTION
+20150312T083051.929 STAT:    ***** OPENED NEW CONNECTION
+20150312T083051.931 RECV: ##:^^Server%%:$$TestClient%%:**ServerReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T083051.933 SEND: ##:^^TestClient%%:$$Server%%:**ServerReadyToReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T083051.934 COPY:    File: /home/doug/git/Java/DCServer/DCServer/files/Client000007_dc.db to /home/doug/git/Java/DCServer/DCServer/files/CurrentClientDatabaseFile.db
+20150312T083051.936 STAT:    Merged records from: TestClient; added: 0, updated: 0
+20150312T083051.936 SEND: ##:^^TestClient%%:$$Server%%:**ServerReceiveFileComplete%%:OK:##
+20150312T083051.937 RECV: ##:^^Server%%:$$TestClient%%:**ClientReady%%:##
+20150312T083051.937 SEND: ##:^^TestClient%%:$$Server%%:**ClientReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T083051.938 RECV: ##:^^Server%%:$$TestClient%%:**ClientReadyToReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T083051.977 RECV: ##:^^Server%%:$$TestClient%%:**ClientReceiveFileComplete%%:OK:##
+20150312T083051.977 SEND: ##:^^TestClient%%:$$Server%%:**NoMoreTransactions%%:##
+20150312T083051.978 RECV: ##:^^Server%%:$$TestClient%%:**EndConnection%%:##
+20150312T083051.978 STAT:    ***** CLOSED CONNECTION
+20150312T083051.978 STAT:    ***** AWAITING NEW CONNECTION
+20150312T083119.031 STAT:    ***** OPENED NEW CONNECTION
+20150312T083119.034 RECV: ##:^^Server%%:$$TestClient%%:**ServerReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T083119.036 SEND: ##:^^TestClient%%:$$Server%%:**ServerReadyToReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T083119.037 COPY:    File: /home/doug/git/Java/DCServer/DCServer/files/Client000008_dc.db to /home/doug/git/Java/DCServer/DCServer/files/CurrentClientDatabaseFile.db
+20150312T083119.039 STAT:    Merged records from: TestClient; added: 0, updated: 0
+20150312T083119.039 SEND: ##:^^TestClient%%:$$Server%%:**ServerReceiveFileComplete%%:OK:##
+20150312T083119.040 RECV: ##:^^Server%%:$$TestClient%%:**ClientReady%%:##
+20150312T083119.040 SEND: ##:^^TestClient%%:$$Server%%:**ClientReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T083119.041 RECV: ##:^^Server%%:$$TestClient%%:**ClientReadyToReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T083119.081 RECV: ##:^^Server%%:$$TestClient%%:**ClientReceiveFileComplete%%:OK:##
+20150312T083119.081 SEND: ##:^^TestClient%%:$$Server%%:**NoMoreTransactions%%:##
+20150312T083119.082 RECV: ##:^^Server%%:$$TestClient%%:**EndConnection%%:##
+20150312T083119.082 STAT:    ***** CLOSED CONNECTION
+20150312T083119.082 STAT:    ***** AWAITING NEW CONNECTION
+20150312T083913.709 STAT:    ***** OPENED NEW CONNECTION
+20150312T083913.713 RECV: ##:^^Server%%:$$TestClient%%:**ServerReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T083913.715 SEND: ##:^^TestClient%%:$$Server%%:**ServerReadyToReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T083913.719 COPY:    File: /home/doug/git/Java/DCServer/DCServer/files/Client000009_dc.db to /home/doug/git/Java/DCServer/DCServer/files/CurrentClientDatabaseFile.db
+20150312T083913.722 STAT:    ***** Empty client database file
+20150312T083913.722 STAT:    Merged records from: TestClient; added: 0, updated: 0
+20150312T083913.723 SEND: ##:^^TestClient%%:$$Server%%:**ServerReceiveFileComplete%%:OK:##
+20150312T083913.724 RECV: ##:^^Server%%:$$TestClient%%:**ClientReady%%:##
+20150312T083913.725 SEND: ##:^^TestClient%%:$$Server%%:**ClientReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T083913.727 RECV: ##:^^Server%%:$$TestClient%%:**ClientReadyToReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T083913.765 RECV: ##:^^Server%%:$$TestClient%%:**ClientReceiveFileComplete%%:OK:##
+20150312T083913.766 SEND: ##:^^TestClient%%:$$Server%%:**NoMoreTransactions%%:##
+20150312T083913.767 RECV: ##:^^Server%%:$$TestClient%%:**EndConnection%%:##
+20150312T083913.768 STAT:    ***** CLOSED CONNECTION
+20150312T083913.768 STAT:    ***** AWAITING NEW CONNECTION
+20150312T083927.135 STAT:    ***** OPENED NEW CONNECTION
+20150312T083927.139 RECV: ##:^^Server%%:$$TestClient%%:**ServerReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T083927.141 SEND: ##:^^TestClient%%:$$Server%%:**ServerReadyToReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T083927.144 COPY:    File: /home/doug/git/Java/DCServer/DCServer/files/Client000010_dc.db to /home/doug/git/Java/DCServer/DCServer/files/CurrentClientDatabaseFile.db
+20150312T083927.149 STAT:    Merged records from: TestClient; added: 0, updated: 0
+20150312T083927.149 SEND: ##:^^TestClient%%:$$Server%%:**ServerReceiveFileComplete%%:OK:##
+20150312T083927.150 RECV: ##:^^Server%%:$$TestClient%%:**ClientReady%%:##
+20150312T083927.150 SEND: ##:^^TestClient%%:$$Server%%:**ClientReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T083927.151 RECV: ##:^^Server%%:$$TestClient%%:**ClientReadyToReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T083927.189 RECV: ##:^^Server%%:$$TestClient%%:**ClientReceiveFileComplete%%:OK:##
+20150312T083927.190 SEND: ##:^^TestClient%%:$$Server%%:**NoMoreTransactions%%:##
+20150312T083927.191 RECV: ##:^^Server%%:$$TestClient%%:**EndConnection%%:##
+20150312T083927.192 STAT:    ***** CLOSED CONNECTION
+20150312T083927.192 STAT:    ***** AWAITING NEW CONNECTION
+20150312T083938.335 STAT:    ***** OPENED NEW CONNECTION
+20150312T083938.340 RECV: ##:^^Server%%:$$TestClient%%:**ServerReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T083938.343 SEND: ##:^^TestClient%%:$$Server%%:**ServerReadyToReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T083938.347 COPY:    File: /home/doug/git/Java/DCServer/DCServer/files/Client000011_dc.db to /home/doug/git/Java/DCServer/DCServer/files/CurrentClientDatabaseFile.db
+20150312T083938.358 STAT:    Merged records from: TestClient; added: 0, updated: 0
+20150312T083938.358 SEND: ##:^^TestClient%%:$$Server%%:**ServerReceiveFileComplete%%:OK:##
+20150312T083938.359 RECV: ##:^^Server%%:$$TestClient%%:**ClientReady%%:##
+20150312T083938.360 SEND: ##:^^TestClient%%:$$Server%%:**ClientReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T083938.362 RECV: ##:^^Server%%:$$TestClient%%:**ClientReadyToReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T083938.401 RECV: ##:^^Server%%:$$TestClient%%:**ClientReceiveFileComplete%%:OK:##
+20150312T083938.401 SEND: ##:^^TestClient%%:$$Server%%:**NoMoreTransactions%%:##
+20150312T083938.402 RECV: ##:^^Server%%:$$TestClient%%:**EndConnection%%:##
+20150312T083938.403 STAT:    ***** CLOSED CONNECTION
+20150312T083938.403 STAT:    ***** AWAITING NEW CONNECTION
+20150312T084252.117 STAT:    ***** OPENED NEW CONNECTION
+20150312T084252.121 RECV: ##:^^Server%%:$$TestClient%%:**ServerReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T084252.124 SEND: ##:^^TestClient%%:$$Server%%:**ServerReadyToReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T084252.127 COPY:    File: /home/doug/git/Java/DCServer/DCServer/files/Client000012_dc.db to /home/doug/git/Java/DCServer/DCServer/files/CurrentClientDatabaseFile.db
+20150312T084252.129 STAT:    ***** Empty client database file
+20150312T084252.130 STAT:    Merged records from: TestClient; added: 0, updated: 0
+20150312T084252.130 SEND: ##:^^TestClient%%:$$Server%%:**ServerReceiveFileComplete%%:OK:##
+20150312T084252.131 RECV: ##:^^Server%%:$$TestClient%%:**ClientReady%%:##
+20150312T084252.131 SEND: ##:^^TestClient%%:$$Server%%:**ClientReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T084252.132 RECV: ##:^^Server%%:$$TestClient%%:**ClientReadyToReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T084252.169 RECV: ##:^^Server%%:$$TestClient%%:**ClientReceiveFileComplete%%:OK:##
+20150312T084252.169 SEND: ##:^^TestClient%%:$$Server%%:**NoMoreTransactions%%:##
+20150312T084252.170 RECV: ##:^^Server%%:$$TestClient%%:**EndConnection%%:##
+20150312T084252.170 STAT:    ***** CLOSED CONNECTION
+20150312T084252.171 STAT:    ***** AWAITING NEW CONNECTION
+20150312T084315.256 STAT:    ***** Server Startup -- Version: 1.1
+20150312T084315.257 STAT:    ***** AWAITING NEW CONNECTION
+20150312T084324.175 STAT:    ***** OPENED NEW CONNECTION
+20150312T084324.180 RECV: ##:^^Server%%:$$TestClient%%:**ServerReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T084324.197 SEND: ##:^^TestClient%%:$$Server%%:**ServerReadyToReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T084324.200 COPY:    File: /home/doug/git/Java/DCServer/DCServer/files/Client000013_dc.db to /home/doug/git/Java/DCServer/DCServer/files/CurrentClientDatabaseFile.db
+20150312T084324.378 STAT:    Merged records from: TestClient; added: 0, updated: 0
+20150312T084324.378 SEND: ##:^^TestClient%%:$$Server%%:**ServerReceiveFileComplete%%:OK:##
+20150312T084324.379 RECV: ##:^^Server%%:$$TestClient%%:**ClientReady%%:##
+20150312T084324.380 SEND: ##:^^TestClient%%:$$Server%%:**ClientReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T084324.380 RECV: ##:^^Server%%:$$TestClient%%:**ClientReadyToReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T084324.417 RECV: ##:^^Server%%:$$TestClient%%:**ClientReceiveFileComplete%%:OK:##
+20150312T084324.418 SEND: ##:^^TestClient%%:$$Server%%:**NoMoreTransactions%%:##
+20150312T084324.418 RECV: ##:^^Server%%:$$TestClient%%:**EndConnection%%:##
+20150312T084324.418 STAT:    ***** CLOSED CONNECTION
+20150312T084324.419 STAT:    ***** AWAITING NEW CONNECTION
+20150312T085002.542 STAT:    ***** OPENED NEW CONNECTION
+20150312T085002.544 RECV: ##:^^Server%%:$$TestClient%%:**ServerReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T085002.546 SEND: ##:^^TestClient%%:$$Server%%:**ServerReadyToReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T085002.548 COPY:    File: /home/doug/git/Java/DCServer/DCServer/files/Client000014_dc.db to /home/doug/git/Java/DCServer/DCServer/files/CurrentClientDatabaseFile.db
+20150312T085002.549 STAT:    ***** Empty client database file
+20150312T085002.549 STAT:    Merged records from: TestClient; added: 0, updated: 0
+20150312T085002.550 SEND: ##:^^TestClient%%:$$Server%%:**ServerReceiveFileComplete%%:OK:##
+20150312T085002.551 RECV: ##:^^Server%%:$$TestClient%%:**ClientReady%%:##
+20150312T085002.551 SEND: ##:^^TestClient%%:$$Server%%:**ClientReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T085002.552 RECV: ##:^^Server%%:$$TestClient%%:**ClientReadyToReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T085002.589 RECV: ##:^^Server%%:$$TestClient%%:**ClientReceiveFileComplete%%:OK:##
+20150312T085002.589 SEND: ##:^^TestClient%%:$$Server%%:**NoMoreTransactions%%:##
+20150312T085002.590 RECV: ##:^^Server%%:$$TestClient%%:**EndConnection%%:##
+20150312T085002.590 STAT:    ***** CLOSED CONNECTION
+20150312T085002.590 STAT:    ***** AWAITING NEW CONNECTION
+20150312T092702.201 STAT:    ***** Server Startup -- Version: 1.1
+20150312T092702.250 STAT:    ***** AWAITING NEW CONNECTION
+20150312T092711.450 STAT:    ***** OPENED NEW CONNECTION
+20150312T092711.454 RECV: ##:^^Server%%:$$TestClient%%:**ServerReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T092711.522 SEND: ##:^^TestClient%%:$$Server%%:**ServerReadyToReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T092711.529 COPY:    File: /home/doug/git/Java/DCServer/DCServer/files/Client000015_dc.db to /home/doug/git/Java/DCServer/DCServer/files/CurrentClientDatabaseFile.db
+20150312T092711.680 STAT:    ***** Empty client database file
+20150312T092711.693 STAT:    Merged records from: TestClient; added: 0, updated: 0
+20150312T092711.694 SEND: ##:^^TestClient%%:$$Server%%:**ServerReceiveFileComplete%%:OK:##
+20150312T092711.695 RECV: ##:^^Server%%:$$TestClient%%:**ClientReady%%:##
+20150312T092711.696 SEND: ##:^^TestClient%%:$$Server%%:**ClientReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T092711.697 RECV: ##:^^Server%%:$$TestClient%%:**ClientReadyToReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T092711.739 RECV: ##:^^Server%%:$$TestClient%%:**ClientReceiveFileComplete%%:OK:##
+20150312T092711.740 SEND: ##:^^TestClient%%:$$Server%%:**NoMoreTransactions%%:##
+20150312T092711.740 RECV: ##:^^Server%%:$$TestClient%%:**EndConnection%%:##
+20150312T092711.741 STAT:    ***** CLOSED CONNECTION
+20150312T092711.741 STAT:    ***** AWAITING NEW CONNECTION
+20150312T092849.456 STAT:    ***** OPENED NEW CONNECTION
+20150312T092849.461 RECV: ##:^^Server%%:$$TestClient%%:**ServerReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T092849.465 SEND: ##:^^TestClient%%:$$Server%%:**ServerReadyToReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T092849.470 COPY:    File: /home/doug/git/Java/DCServer/DCServer/files/Client000016_dc.db to /home/doug/git/Java/DCServer/DCServer/files/CurrentClientDatabaseFile.db
+20150312T092849.474 STAT:    ***** Empty client database file
+20150312T092849.474 STAT:    Merged records from: TestClient; added: 0, updated: 0
+20150312T092849.475 SEND: ##:^^TestClient%%:$$Server%%:**ServerReceiveFileComplete%%:OK:##
+20150312T092849.476 RECV: ##:^^Server%%:$$TestClient%%:**ClientReady%%:##
+20150312T092849.478 SEND: ##:^^TestClient%%:$$Server%%:**ClientReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T092849.479 RECV: ##:^^Server%%:$$TestClient%%:**ClientReadyToReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T092849.519 RECV: ##:^^Server%%:$$TestClient%%:**ClientReceiveFileComplete%%:OK:##
+20150312T092849.520 SEND: ##:^^TestClient%%:$$Server%%:**NoMoreTransactions%%:##
+20150312T092849.521 RECV: ##:^^Server%%:$$TestClient%%:**EndConnection%%:##
+20150312T092849.522 STAT:    ***** CLOSED CONNECTION
+20150312T092849.523 STAT:    ***** AWAITING NEW CONNECTION
+20150312T092905.021 STAT:    ***** OPENED NEW CONNECTION
+20150312T092905.023 RECV: ##:^^Server%%:$$TestClient%%:**ServerReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T092905.024 SEND: ##:^^TestClient%%:$$Server%%:**ServerReadyToReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T092905.025 COPY:    File: /home/doug/git/Java/DCServer/DCServer/files/Client000017_dc.db to /home/doug/git/Java/DCServer/DCServer/files/CurrentClientDatabaseFile.db
+20150312T092905.027 STAT:    Merged records from: TestClient; added: 0, updated: 0
+20150312T092905.027 SEND: ##:^^TestClient%%:$$Server%%:**ServerReceiveFileComplete%%:OK:##
+20150312T092905.027 RECV: ##:^^Server%%:$$TestClient%%:**ClientReady%%:##
+20150312T092905.028 SEND: ##:^^TestClient%%:$$Server%%:**ClientReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T092905.028 RECV: ##:^^Server%%:$$TestClient%%:**ClientReadyToReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T092905.067 RECV: ##:^^Server%%:$$TestClient%%:**ClientReceiveFileComplete%%:OK:##
+20150312T092905.067 SEND: ##:^^TestClient%%:$$Server%%:**NoMoreTransactions%%:##
+20150312T092905.067 RECV: ##:^^Server%%:$$TestClient%%:**EndConnection%%:##
+20150312T092905.068 STAT:    ***** CLOSED CONNECTION
+20150312T092905.068 STAT:    ***** AWAITING NEW CONNECTION
+20150312T093718.154 STAT:    ***** Server Startup -- Version: 1.1
+20150312T093718.155 STAT:    ***** AWAITING NEW CONNECTION
+20150312T093959.072 STAT:    ***** Server Startup -- Version: 1.1
+20150312T093959.073 STAT:    ***** AWAITING NEW CONNECTION
+20150312T094348.386 STAT:    ***** Server Startup -- Version: 1.1
+20150312T094348.388 STAT:    ***** AWAITING NEW CONNECTION
+20150312T094417.993 STAT:    ***** Server Startup -- Version: 1.1
+20150312T094417.994 STAT:    ***** AWAITING NEW CONNECTION
+20150312T094425.214 STAT:    ***** OPENED NEW CONNECTION
+20150312T094425.218 RECV: ##:^^Server%%:$$TestClient%%:**ServerReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T094425.230 SEND: ##:^^TestClient%%:$$Server%%:**ServerReadyToReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T094425.234 COPY:    File: /home/doug/git/Java/DCServer/DCServer/files/Client000018_dc.db to /home/doug/git/Java/DCServer/DCServer/files/CurrentClientDatabaseFile.db
+20150312T094425.468 STAT:    ***** Empty client database file
+20150312T094425.469 STAT:    Merged records from: TestClient; added: 0, updated: 0
+20150312T094425.469 SEND: ##:^^TestClient%%:$$Server%%:**ServerReceiveFileComplete%%:OK:##
+20150312T094425.470 RECV: ##:^^Server%%:$$TestClient%%:**ClientReady%%:##
+20150312T094425.470 SEND: ##:^^TestClient%%:$$Server%%:**ClientReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T094425.471 RECV: ##:^^Server%%:$$TestClient%%:**ClientReadyToReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T094425.511 RECV: ##:^^Server%%:$$TestClient%%:**ClientReceiveFileComplete%%:OK:##
+20150312T094425.512 SEND: ##:^^TestClient%%:$$Server%%:**NoMoreTransactions%%:##
+20150312T094425.512 RECV: ##:^^Server%%:$$TestClient%%:**EndConnection%%:##
+20150312T094425.513 STAT:    ***** CLOSED CONNECTION
+20150312T094425.513 STAT:    ***** AWAITING NEW CONNECTION
+20150312T094435.707 STAT:    ***** OPENED NEW CONNECTION
+20150312T094435.711 RECV: ##:^^Server%%:$$TestClient%%:**ServerReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T094435.715 SEND: ##:^^TestClient%%:$$Server%%:**ServerReadyToReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T094435.719 COPY:    File: /home/doug/git/Java/DCServer/DCServer/files/Client000019_dc.db to /home/doug/git/Java/DCServer/DCServer/files/CurrentClientDatabaseFile.db
+20150312T094435.722 STAT:    ***** Empty client database file
+20150312T094435.722 STAT:    Merged records from: TestClient; added: 0, updated: 0
+20150312T094435.722 SEND: ##:^^TestClient%%:$$Server%%:**ServerReceiveFileComplete%%:OK:##
+20150312T094435.723 RECV: ##:^^Server%%:$$TestClient%%:**ClientReady%%:##
+20150312T094435.724 SEND: ##:^^TestClient%%:$$Server%%:**ClientReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T094435.726 RECV: ##:^^Server%%:$$TestClient%%:**ClientReadyToReceiveFile%%:dc.db:20480bytes:20150228T175821:##
+20150312T094435.763 RECV: ##:^^Server%%:$$TestClient%%:**ClientReceiveFileComplete%%:OK:##
+20150312T094435.764 SEND: ##:^^TestClient%%:$$Server%%:**NoMoreTransactions%%:##
+20150312T094435.765 RECV: ##:^^Server%%:$$TestClient%%:**EndConnection%%:##
+20150312T094435.766 STAT:    ***** CLOSED CONNECTION
+20150312T094435.766 STAT:    ***** AWAITING NEW CONNECTION

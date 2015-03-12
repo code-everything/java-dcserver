@@ -97,9 +97,9 @@ public class SyncDBWithClient {
 						"COPY:    File: " + src.getAbsolutePath() + 
 						" to " + dest.getAbsolutePath());
 				// Delete the file if it exists
-				//if (dest.exists()) {
-				//	dest.delete();
-				//}
+				if (dest.exists()) {
+					dest.delete();
+				}
 				Files.copy(src.toPath(), dest.toPath(), REPLACE_EXISTING);
 				
 				//Merge the records with the master database

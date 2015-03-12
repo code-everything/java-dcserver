@@ -106,6 +106,12 @@ public class MergeRecords {
 					cDone = true;
 				}
 			}
+		} else {
+			// ********************* Temporary
+			System.out.println("nrecs <= 0");
+			
+			Common.logit("           Empty client database file", 
+					"STAT:    ***** Empty client database file");
 		}
 
 		AddUpdate au = new AddUpdate(addCount, updateCount);
