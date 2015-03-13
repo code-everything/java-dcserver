@@ -50,8 +50,6 @@ public class DCServer {
 		long start = System.currentTimeMillis();
 		int bytesRead;
 		int current = 0;
-		
-		readConfig();
 
 		@SuppressWarnings("unused")
 		boolean keepLooping = true;
@@ -64,6 +62,10 @@ public class DCServer {
 		}
 		Common.logit("************** Server Startup -- Version: " + Common.version,
 				"STAT:    ***** Server Startup -- Version: " + Common.version);
+		
+		readConfig();
+		Common.logit("            Read config file. master_client: " + Common.masterClient,
+				"STAT:    ***** Read config file. master_client: " + Common.masterClient);
 
 		// Loop servicing clients
 		while (true) {
