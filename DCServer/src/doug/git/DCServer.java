@@ -6,6 +6,7 @@ import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
@@ -14,6 +15,7 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Properties;
 
 public class DCServer {
 
@@ -48,6 +50,8 @@ public class DCServer {
 		long start = System.currentTimeMillis();
 		int bytesRead;
 		int current = 0;
+		
+		readConfig();
 
 		@SuppressWarnings("unused")
 		boolean keepLooping = true;
@@ -82,7 +86,11 @@ public class DCServer {
 				clientSocketCmd = new SocketCmd(clientInLine);
 
 				thisTo = new String(clientSocketCmd.to);
+				
 				clientName = new String(clientSocketCmd.from);
+				int pctPos = clientName.indexOf("%%");
+				Common.currentClient = new String(clientName.substring(2, pctPos));
+				
 				thisCmd = new String(clientSocketCmd.cmd);
 
 				if (thisTo.equals("^^Server%%") && thisCmd.equals("**ServerReceiveFile%%")) {
@@ -126,6 +134,22 @@ public class DCServer {
 			if (!keepLooping) break;
 		}
 
+	}
+	
+	private static void readConfig() {
+		
+		Properties prop = new Properties();
+		try {
+			prop.load(new FileInputStream(Common.configFileName));
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		String mc = prop.getProperty("master_client");
+		
+		Common.masterClient = new String(mc);
+		
 	}
 
 }

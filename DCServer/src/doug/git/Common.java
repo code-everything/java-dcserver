@@ -63,6 +63,11 @@ public class Common {
 	
 	static final String clientFilePrefix = "Client";
 	static final String clientFileSerialNumFormat = "%06d";
+	
+	static final String configFileName = "files/config.properties";
+	
+	static String currentClient;
+	static String masterClient;
 
 	/*
 	 * A private Constructor prevents any other class from instantiating.

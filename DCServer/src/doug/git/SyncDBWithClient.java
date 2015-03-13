@@ -49,7 +49,7 @@ public class SyncDBWithClient {
 	static SocketCmd svrSocketCmd4;
 	static SocketCmd svrSocketCmd5;
 	
-	static String clientName;
+	//static String clientName;
 
 	static long fSize;
 
@@ -75,7 +75,7 @@ public class SyncDBWithClient {
 			this.thisTo = new String(clientSocketCmd1.to);
 			int pctPos = clientSocketCmd1.from.indexOf("%%");
 			
-			this.clientName = new String(clientSocketCmd1.from.substring(2, pctPos));
+			//this.clientName = new String(clientSocketCmd1.from.substring(2, pctPos));
 			this.thisCmd = new String(clientSocketCmd1.cmd);
 			
 
@@ -103,17 +103,17 @@ public class SyncDBWithClient {
 				Files.copy(src.toPath(), dest.toPath(), REPLACE_EXISTING);
 				
 				//Merge the records with the master database
-				MergeRecords mr = new MergeRecords(clientName);
+				MergeRecords mr = new MergeRecords(Common.currentClient);
 				AddUpdate au = mr.mergeRecs();
 				
 				String mergeMsg = new String(
 						"Merged records from: " +
-						clientName + "; added: " + au.added +
+						Common.currentClient + "; added: " + au.added +
 						", updated: " + au.updated);
 				
 				Common.logit("           " + mergeMsg, "STAT:    " + mergeMsg);
 
-				svrSocketCmd2 = new SocketCmd(clientName, "Server", 
+				svrSocketCmd2 = new SocketCmd(Common.currentClient, "Server", 
 						"ServerReceiveFileComplete", "OK");
 				String svrCmd2x = new String(svrSocketCmd2.wholeCmdStr);
 
@@ -133,7 +133,7 @@ public class SyncDBWithClient {
 					long thisFileSize = thisFileFile.length();
 					long thisFileModed = thisFileFile.lastModified();
 					Date thisFileDate = new Date(thisFileModed);
-					svrSocketCmd3 = new SocketCmd(clientName, "Server",
+					svrSocketCmd3 = new SocketCmd(Common.currentClient, "Server",
 							"ClientReceiveFile", thisFileFile.getName(),
 							thisFileSize, thisFileDate);
 					String svrCmd3b = new String(svrSocketCmd3.wholeCmdStr);
@@ -151,7 +151,7 @@ public class SyncDBWithClient {
 						sendFileToSocket();
 					}
 					
-					svrSocketCmd5 = new SocketCmd(clientName, "Server",
+					svrSocketCmd5 = new SocketCmd(Common.currentClient, "Server",
 							"NoMoreTransactions");
 					String svrCmd5b = new String(svrSocketCmd5.wholeCmdStr);
 					Common.logit("Send   : **NoMoreTransactions%%", "SEND: " + svrCmd5b);
@@ -193,7 +193,7 @@ public class SyncDBWithClient {
 
 		// Tell Client we are Ready
 		Common.logit("Send   : **ServerReadyToReceiveFile%%", null);
-		svrSocketCmd1 = new SocketCmd(clientName, "Server",
+		svrSocketCmd1 = new SocketCmd(Common.currentClient, "Server",
 				"ServerReadyToReceiveFile",
 				clientSocketCmd1.param1,
 				clientSocketCmd1.param2,

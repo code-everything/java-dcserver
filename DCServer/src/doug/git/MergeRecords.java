@@ -83,12 +83,20 @@ public class MergeRecords {
 					if (!mRec.getActive().equals(cRec.getActive())
 							|| !mRec.getComment().equals(cRec.getComment())) {
 						cRec.set_id(mRec.get_id());
-						updateCount++;
-						try {
-							masterDb.updateDcRec(cRec);
-						} catch (Exception e) {
-							e.printStackTrace();
+						
+						// Only update the record if this was originated
+						// by the current client or the current client
+						// is the MASTER client
+						if (cRec.getDevice().equals(Common.currentClient) ||
+								Common.currentClient.equals(Common.masterClient)) {
+							updateCount++;
+							try {
+								masterDb.updateDcRec(cRec);
+							} catch (Exception e) {
+								e.printStackTrace();
+							}
 						}
+						
 					}
 				} else {
 					// Not found - add the record
